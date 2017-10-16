@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Basic CSS3 Tooltips</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="container">
+    <form role="form" class="form">
+      <div class="form-group">
+        <h2>Basic CSS3 Tooltips</h2>
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <span id="button" class="basic-tooltip" data-basic-tooltip="Password must contain at-least 1 number(0-9), 1 character(a-z) and one special character(@# e.t.c)">?</span>
+        <input type="password" class="form-control"/>
+      </div>
+
+      <div class="form-group">
+        <label>Storage</label>
+        <br/>
+        <button id="button" class="basic-tooltip" data-basic-tooltip="Hard Disk Drive. Slower and uses same technology as those of old PC's">HDD</button>
+        <button id="button" class="basic-tooltip" data-basic-tooltip="Solid State Drives. Very Fast and uses the same technology as Flash Drives">SSD</button>
+      </div>
+
+      <div class="form-group">
+        <label>Storage Type</label>
+        <br/>
+        <button id="button" class="basic-tooltip" data-basic-tooltip="Allows for redundancy across multiple server around the world.">Hot</button>
+        <button id="button" class="basic-tooltip" data-basic-tooltip="Classic only uses local HDD storage and does not allow for geo-redundancy.">Classic</button>
+      </div>
+    </form>
+
+  </div>
+</body>
+</html>
